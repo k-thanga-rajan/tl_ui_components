@@ -9,19 +9,26 @@ Object.defineProperty(exports, "TlAccordian", {
     return _tlAccordian["default"];
   }
 });
+Object.defineProperty(exports, "TlButton", {
+  enumerable: true,
+  get: function get() {
+    return _tlButton["default"];
+  }
+});
+Object.defineProperty(exports, "TlCheckBox", {
+  enumerable: true,
+  get: function get() {
+    return _tlCheckBox["default"];
+  }
+});
 Object.defineProperty(exports, "TlDrawer", {
   enumerable: true,
   get: function get() {
     return _tlDrawar["default"];
   }
 });
-Object.defineProperty(exports, "UiButton", {
-  enumerable: true,
-  get: function get() {
-    return _UiButton["default"];
-  }
-});
-var _UiButton = _interopRequireDefault(require("./UiButton"));
+var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));
 var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAccordian"));
 var _tlDrawar = _interopRequireDefault(require("./page/main/tlDrawar/tlDrawar"));
+var _tlCheckBox = _interopRequireDefault(require("./page/main/tlCheckBox/tlCheckBox"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }

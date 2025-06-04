@@ -1,3 +1,4 @@
-export { default as UiButton } from './UiButton';
+export { default as TlButton } from './page/main/tlButton/tlButton';
 export { default as TlAccordian } from './page/main/uiAccordian/tlAccordian';
 export { default as TlDrawer } from './page/main/tlDrawar/tlDrawar';
+export { default as TlCheckBox } from './page/main/tlCheckBox/tlCheckBox';

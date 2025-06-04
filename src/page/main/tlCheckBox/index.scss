@@ -1,0 +1,11 @@
+@import "../../../sass/index.scss";
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+/* Customize the hover color when checked */
+.ant-checkbox-checked:hover .ant-checkbox-inner {
+    border-color: var(--secondary-color) !important;
+}
