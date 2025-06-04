@@ -1,12 +1,15 @@
 {
     "name": "tl_r_ds",
     "version": "1.0.0",
-    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "babel src --out-dir dist --copy-files"
     },
-    "keywords": [],
-    "author": "",
     "license": "ISC",
     "dependencies": {
         "antd": "^5.25.4",
