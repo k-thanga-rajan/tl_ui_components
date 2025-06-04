@@ -24,14 +24,12 @@ var TlModal = function TlModal(_ref) {
     onCancel = _ref.onCancel,
     children = _ref.children,
     resetProps = _objectWithoutProperties(_ref, _excluded);
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
-    children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_antd.Modal, _objectSpread(_objectSpread({
-      open: open,
-      onOk: onOk,
-      onCancel: onCancel
-    }, resetProps), {}, {
-      children: children
-    }))
-  });
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_antd.Modal, _objectSpread(_objectSpread({
+    open: open,
+    onOk: onOk,
+    onCancel: onCancel
+  }, resetProps), {}, {
+    children: children
+  }));
 };
 var _default = exports["default"] = TlModal;
