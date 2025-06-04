@@ -39,12 +39,6 @@ Object.defineProperty(exports, "TlModal", {
     return _tlModal["default"];
   }
 });
-Object.defineProperty(exports, "TlSearch", {
-  enumerable: true,
-  get: function get() {
-    return _tlSearch["default"];
-  }
-});
 Object.defineProperty(exports, "TlSelect", {
   enumerable: true,
   get: function get() {
@@ -72,5 +66,4 @@ var _tlSelect = _interopRequireDefault(require("./page/main/TlSelect/tlSelect"))
 var _tlTab = _interopRequireDefault(require("./page/main/TlTab/tlTab"));
 var _tlModal = _interopRequireDefault(require("./page/main/tlModal/tlModal"));
 var _tlShowConfirmModal = _interopRequireDefault(require("./page/main/tlModal/tlShowConfirmModal"));
-var _tlSearch = _interopRequireDefault(require("./page/main/tlSearch/tlSearch"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }

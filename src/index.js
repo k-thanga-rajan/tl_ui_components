@@ -7,4 +7,3 @@ export { default as TlSelect } from './page/main/TlSelect/tlSelect';
 export { default as TlTab } from './page/main/TlTab/tlTab';
 export { default as TlModal } from './page/main/tlModal/tlModal';
 export { default as TlShowConfirmModal } from './page/main/tlModal/tlShowConfirmModal';
-export { default as TlSearch } from "./page/main/tlSearch/tlSearch";
