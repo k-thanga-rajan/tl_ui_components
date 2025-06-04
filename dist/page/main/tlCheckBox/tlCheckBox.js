@@ -4,7 +4,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TlCheckBox = void 0;
+exports["default"] = void 0;
 var _antd = require("antd");
 require("./index.scss");
 var _jsxRuntime = require("react/jsx-runtime");
@@ -16,7 +16,7 @@ function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" 
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
-var TlCheckBox = exports.TlCheckBox = function TlCheckBox(_ref) {
+var TlCheckBox = function TlCheckBox(_ref) {
   var children = _ref.children,
     onChange = _ref.onChange,
     resetProps = _objectWithoutProperties(_ref, _excluded);
@@ -28,3 +28,4 @@ var TlCheckBox = exports.TlCheckBox = function TlCheckBox(_ref) {
     }))
   });
 };
+var _default = exports["default"] = TlCheckBox;
