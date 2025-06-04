@@ -15,4 +15,4 @@ const UiSearch = React?.forwardRef(({ className, style, placeholder, handleSearc
     />
 
 ));
-export default UiSearch;
+export default TlSearch;

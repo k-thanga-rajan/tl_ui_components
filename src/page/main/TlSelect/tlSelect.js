@@ -1,7 +1,7 @@
 import { Select } from "antd";
 import "./index.scss";
 
-const UiSelect = ({ disabled, selectedOption, placeholder, handleChange, handleSearch, newFilterOption, options, mode, style, ...resetProps }) => {
+const TlSelect = ({ disabled, selectedOption, placeholder, handleChange, handleSearch, newFilterOption, options, mode, style, ...resetProps }) => {
     return (
         <Select
             allowClear
@@ -21,4 +21,4 @@ const UiSelect = ({ disabled, selectedOption, placeholder, handleChange, handleS
         />
     )
 };
-export default UiSelect;
+export default TlSelect;

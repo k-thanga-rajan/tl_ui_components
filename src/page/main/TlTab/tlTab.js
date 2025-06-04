@@ -2,7 +2,7 @@ import { Tabs } from "antd";
 import TabPane from "antd/es/tabs/TabPane";
 import "./index.scss";
 
-const UiTabs = ({ children, tabs, onChange, activeTabKey, activeKey, className, ...restProps }) => {
+const TlTabs = ({ children, tabs, onChange, activeTabKey, activeKey, className, ...restProps }) => {
     return (
         <>
             <div>
@@ -24,4 +24,4 @@ const UiTabs = ({ children, tabs, onChange, activeTabKey, activeKey, className, 
     );
 }
 
-export default UiTabs;
+export default TlTabs;

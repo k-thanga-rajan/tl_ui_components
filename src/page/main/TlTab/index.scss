@@ -1,0 +1,17 @@
+@import "../../../scss/variables.scss";
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--secondary-color) !important;
+}
+
+.ant-tabs-ink-bar {
+    background-color: var(--secondary-color) !important;
+}
+
+.ant-tabs-tab:hover {
+    color: var(--secondary-color) !important;
+}
+
+.ant-tabs-tab-active:hover {
+    color: var(--secondary-color) !important;
+}

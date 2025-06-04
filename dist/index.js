@@ -45,16 +45,22 @@ Object.defineProperty(exports, "TlShowConfirmModal", {
     return _tlShowConfirmModal["default"];
   }
 });
+Object.defineProperty(exports, "TlTab", {
+  enumerable: true,
+  get: function get() {
+    return _tlTab["default"];
+  }
+});
 Object.defineProperty(exports, "UiSearch", {
   enumerable: true,
   get: function get() {
-    return _UiSearch["default"];
+    return _tlSearch["default"];
   }
 });
 Object.defineProperty(exports, "UiSelect", {
   enumerable: true,
   get: function get() {
-    return _index["default"];
+    return _tlSelect["default"];
   }
 });
 var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));
@@ -62,8 +68,9 @@ var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAcc
 var _tlDrawar = _interopRequireDefault(require("./page/main/tlDrawar/tlDrawar"));
 var _tlCheckBox = _interopRequireDefault(require("./page/main/tlCheckBox/tlCheckBox"));
 var _tlLoader = _interopRequireDefault(require("./page/main/tlLoader/tlLoader"));
-var _UiSearch = _interopRequireDefault(require("./page/main/UiSearch/UiSearch"));
-var _index = _interopRequireDefault(require("./page/main/UiSelect/index"));
+var _tlSearch = _interopRequireDefault(require("./page/main/tlSearch/tlSearch"));
+var _tlSelect = _interopRequireDefault(require("./page/main/TlSelect/tlSelect"));
+var _tlTab = _interopRequireDefault(require("./page/main/TlTab/tlTab"));
 var _tlModal = _interopRequireDefault(require("./page/main/tlModal/tlModal"));
 var _tlShowConfirmModal = _interopRequireDefault(require("./page/main/tlModal/tlShowConfirmModal"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
