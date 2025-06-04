@@ -8,6 +8,7 @@ exports["default"] = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _classnames = _interopRequireDefault(require("classnames"));
 require("./style.scss");
+var _images = require("../../assets/images");
 var _jsxRuntime = require("react/jsx-runtime");
 var _excluded = ["children", "changeAccordianResponse"];
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
@@ -69,7 +70,7 @@ var TlAccordian = function TlAccordian(_ref) {
             children: subLabel
           }) : active === id && /*#__PURE__*/(0, _jsxRuntime.jsx)("p", {})]
         }), /*#__PURE__*/(0, _jsxRuntime.jsx)("img", {
-          src: DownArro,
+          src: _images.DownArrow,
           alt: "Arrow"
         })]
       })
