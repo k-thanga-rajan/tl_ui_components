@@ -1,4 +1,4 @@
-import { DownArrow } from "./down-arrow.svg";
+import DownArrow from "./down-arrow.svg";
 
 export {
     DownArrow

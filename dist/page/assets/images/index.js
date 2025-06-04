@@ -6,7 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "DownArrow", {
   enumerable: true,
   get: function get() {
-    return _downArrow.DownArrow;
+    return _downArrow["default"];
   }
 });
-var _downArrow = require("./down-arrow.svg");
+var _downArrow = _interopRequireDefault(require("./down-arrow.svg"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
