@@ -1,0 +1,38 @@
+@import "../../../sass/index.scss";
+
+.custom-drawer {
+    .close-icon {
+        position: absolute;
+        cursor: pointer;
+        top: 19px;
+        right: 22px;
+        color: #00000073 !important;
+    }
+}
+
+.custom-drawer .ant-drawer-header {
+    padding: 2% 3% !important;
+    font-size: 13px !important;
+}
+
+.employeeSlotRadio .ant-radio-button-wrapper {
+    margin: auto !important;
+    width: 100% !important;
+    font-size: 12px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.employeeSlotRadio .ant-radio-button-wrapper:hover,
+.employeeSlotRadio .ant-radio-button-wrapper-checked {
+    border: 1.5px solid var(--secondary-color) !important;
+}
+
+.employeeRadio .ant-radio-checked .ant-radio-inner {
+    border-color: var(--secondary-color) !important;
+    background-color: var(--secondary-color) !important;
+}
+
+.employeeRadio .ant-radio:hover .ant-radio-inner {
+    border-color: var(--secondary-color) !important;
+}
