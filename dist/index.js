@@ -33,9 +33,22 @@ Object.defineProperty(exports, "TlLoadingSpinner", {
     return _tlLoader["default"];
   }
 });
+Object.defineProperty(exports, "TlModal", {
+  enumerable: true,
+  get: function get() {
+    return _tlModal["default"];
+  }
+});
+Object.defineProperty(exports, "TlShowConfirmModal", {
+  enumerable: true,
+  get: function get() {
+    return _tlModal["default"];
+  }
+});
 var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));
 var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAccordian"));
 var _tlDrawar = _interopRequireDefault(require("./page/main/tlDrawar/tlDrawar"));
 var _tlCheckBox = _interopRequireDefault(require("./page/main/tlCheckBox/tlCheckBox"));
 var _tlLoader = _interopRequireDefault(require("./page/main/tlLoader/tlLoader"));
+var _tlModal = _interopRequireDefault(require("./page/main/tlModal/tlModal"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
