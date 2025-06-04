@@ -1,0 +1,11 @@
+@import "../../../sass/index.scss";
+
+.ant-modal-footer .ant-btn-primary {
+    background-color: var(--secondary-color) !important;
+    color: white;
+    border: none;
+}
+
+.ant-modal-footer .ant-btn-primary:hover {
+    background-color: var(--secondary-color) !important;
+}
