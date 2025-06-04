@@ -48,13 +48,13 @@ Object.defineProperty(exports, "TlShowConfirmModal", {
 Object.defineProperty(exports, "UiSearch", {
   enumerable: true,
   get: function get() {
-    return _index["default"];
+    return _UiSearch["default"];
   }
 });
 Object.defineProperty(exports, "UiSelect", {
   enumerable: true,
   get: function get() {
-    return _index2["default"];
+    return _index["default"];
   }
 });
 var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));
@@ -62,8 +62,8 @@ var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAcc
 var _tlDrawar = _interopRequireDefault(require("./page/main/tlDrawar/tlDrawar"));
 var _tlCheckBox = _interopRequireDefault(require("./page/main/tlCheckBox/tlCheckBox"));
 var _tlLoader = _interopRequireDefault(require("./page/main/tlLoader/tlLoader"));
-var _index = _interopRequireDefault(require("./page/main/UiSearch/index"));
-var _index2 = _interopRequireDefault(require("./page/main/UiSelect/index"));
+var _UiSearch = _interopRequireDefault(require("./page/main/UiSearch/UiSearch"));
+var _index = _interopRequireDefault(require("./page/main/UiSelect/index"));
 var _tlModal = _interopRequireDefault(require("./page/main/tlModal/tlModal"));
 var _tlShowConfirmModal = _interopRequireDefault(require("./page/main/tlModal/tlShowConfirmModal"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
