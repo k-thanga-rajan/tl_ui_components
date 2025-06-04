@@ -3,7 +3,6 @@ import "./index.scss";
 import { ModalComplete, infoIcon, xMarkModal } from "../../assets/images";
 
 const TlModal = ({ open, onOk, onCancel, children, ...resetProps }) => {
-
     return (
         <>
             <Modal
@@ -42,4 +41,4 @@ const TlShowConfirmModal = ({ openModal, handleModalSubmit, handleClose, title, 
     );
 };
 
-export default { TlModal, TlShowConfirmModal };
+export { TlModal, TlShowConfirmModal };
