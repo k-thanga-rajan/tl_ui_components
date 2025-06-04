@@ -1,0 +1,23 @@
+@import "./sass/index.scss";
+
+.Ui-Button {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 5px;
+    font-size: 12px !important;
+    color: var(--white-color) !important;
+    background-color: var(--primary-color) !important;
+    border-radius: 2px;
+
+    &:hover {
+        color: var(--white-color);
+    }
+
+    &:disabled {
+        background-color: #F5F5F5 !important;
+        color: #00000040 !important;
+        cursor: not-allowed;
+        opacity: 1;
+        border: 1px solid #D9D9D9;
+    }
+}
