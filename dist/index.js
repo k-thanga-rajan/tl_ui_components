@@ -68,9 +68,9 @@ var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAcc
 var _tlDrawar = _interopRequireDefault(require("./page/main/tlDrawar/tlDrawar"));
 var _tlCheckBox = _interopRequireDefault(require("./page/main/tlCheckBox/tlCheckBox"));
 var _tlLoader = _interopRequireDefault(require("./page/main/tlLoader/tlLoader"));
-var _tlSearch = _interopRequireDefault(require("./page/main/tlSearch/tlSearch"));
 var _tlSelect = _interopRequireDefault(require("./page/main/TlSelect/tlSelect"));
 var _tlTab = _interopRequireDefault(require("./page/main/TlTab/tlTab"));
 var _tlModal = _interopRequireDefault(require("./page/main/tlModal/tlModal"));
 var _tlShowConfirmModal = _interopRequireDefault(require("./page/main/tlModal/tlShowConfirmModal"));
+var _tlSearch = _interopRequireDefault(require("./page/main/tlSearch/tlSearch"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
