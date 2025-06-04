@@ -2,8 +2,8 @@ import React from 'react';
 import Search from 'antd/es/input/Search';
 import "./index.scss";
 
-const TlSearch = React?.forwardRef(({ className, style, placeholder, handleSearch, searchValue, ...restProps }, ref) => (
-    <Search
+const TlSearch = React?.forwardRef(({ className, style, placeholder, handleSearch, searchValue, ...restProps }, ref) => {
+    return <Search
         ref={ref}
         className={`custom-ant-search ${className}`}
         style={style}
@@ -14,5 +14,5 @@ const TlSearch = React?.forwardRef(({ className, style, placeholder, handleSearc
         {...restProps}
     />
 
-));
+});
 export default TlSearch;
