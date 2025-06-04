@@ -1,3 +1,1 @@
-import UiButton from "./UiButton";
-
-export { UiButton };
+export { default as UiButton } from './UiButton';
