@@ -1,0 +1,22 @@
+@import "../../../sass/index.scss";
+
+.custom-ant-search .ant-input {
+    padding-right: 30px;
+}
+
+
+// .custom-ant-search {
+//     border-radius: 0px !important;
+//     background-color: red !important;
+// }
+
+.custom-ant-search .ant-input-affix-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 2px !important;
+}
+
+.custom-ant-search .ant-input {
+    padding-right: 24px;
+    font-size: 13px !important;
+}
