@@ -2,7 +2,7 @@
 
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 exports["default"] = void 0;
 var _react = _interopRequireDefault(require("react"));
@@ -19,22 +19,22 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
 var TlSearch = _react["default"] === null || _react["default"] === void 0 ? void 0 : /*#__PURE__*/_react["default"].forwardRef(function (_ref, ref) {
-  var className = _ref.className,
-    style = _ref.style,
-    placeholder = _ref.placeholder,
-    handleSearch = _ref.handleSearch,
-    searchValue = _ref.searchValue,
-    restProps = _objectWithoutProperties(_ref, _excluded);
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Search["default"], _objectSpread({
-    ref: ref,
-    className: "custom-ant-search ".concat(className),
-    style: style,
-    placeholder: placeholder ? placeholder : "Search",
-    onSearch: handleSearch,
-    onChange: function onChange(e) {
-      return handleSearch(e.target.value);
-    },
-    value: searchValue
-  }, restProps));
+    var className = _ref.className,
+        style = _ref.style,
+        placeholder = _ref.placeholder,
+        handleSearch = _ref.handleSearch,
+        searchValue = _ref.searchValue,
+        restProps = _objectWithoutProperties(_ref, _excluded);
+    return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Search["default"], _objectSpread({
+        ref: ref,
+        className: "custom-ant-search ".concat(className),
+        style: style,
+        placeholder: placeholder ? placeholder : "Search",
+        onSearch: handleSearch,
+        onChange: function onChange(e) {
+            return handleSearch(e.target.value);
+        },
+        value: searchValue
+    }, restProps));
 });
 var _default = exports["default"] = TlSearch;
