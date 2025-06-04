@@ -39,6 +39,12 @@ Object.defineProperty(exports, "TlModal", {
     return _tlModal["default"];
   }
 });
+Object.defineProperty(exports, "TlSearch", {
+  enumerable: true,
+  get: function get() {
+    return _tlSearch["default"];
+  }
+});
 Object.defineProperty(exports, "TlSelect", {
   enumerable: true,
   get: function get() {
@@ -55,12 +61,6 @@ Object.defineProperty(exports, "TlTab", {
   enumerable: true,
   get: function get() {
     return _tlTab["default"];
-  }
-});
-Object.defineProperty(exports, "tlSearch", {
-  enumerable: true,
-  get: function get() {
-    return _tlSearch["default"];
   }
 });
 var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));
