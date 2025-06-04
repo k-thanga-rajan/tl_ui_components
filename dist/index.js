@@ -16,5 +16,5 @@ Object.defineProperty(exports, "UiButton", {
   }
 });
 var _UiButton = _interopRequireDefault(require("./UiButton"));
-var _tlAccordian = _interopRequireDefault(require("./tlAccordian"));
+var _tlAccordian = _interopRequireDefault(require("./page/main/uiAccordian/tlAccordian"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
