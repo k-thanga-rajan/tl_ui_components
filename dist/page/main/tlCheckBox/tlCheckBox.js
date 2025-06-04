@@ -20,12 +20,10 @@ var TlCheckBox = function TlCheckBox(_ref) {
   var children = _ref.children,
     onChange = _ref.onChange,
     resetProps = _objectWithoutProperties(_ref, _excluded);
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
-    children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_antd.Checkbox, _objectSpread(_objectSpread({
-      onChange: onChange
-    }, resetProps), {}, {
-      children: children
-    }))
-  });
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_antd.Checkbox, _objectSpread(_objectSpread({
+    onChange: onChange
+  }, resetProps), {}, {
+    children: children
+  }));
 };
 var _default = exports["default"] = TlCheckBox;
