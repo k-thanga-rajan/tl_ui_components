@@ -3,12 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "LoadingSpinner", {
-  enumerable: true,
-  get: function get() {
-    return _tlLoader["default"];
-  }
-});
 Object.defineProperty(exports, "TlAccordian", {
   enumerable: true,
   get: function get() {
@@ -31,6 +25,12 @@ Object.defineProperty(exports, "TlDrawer", {
   enumerable: true,
   get: function get() {
     return _tlDrawar["default"];
+  }
+});
+Object.defineProperty(exports, "TlLoadingSpinner", {
+  enumerable: true,
+  get: function get() {
+    return _tlLoader["default"];
   }
 });
 var _tlButton = _interopRequireDefault(require("./page/main/tlButton/tlButton"));

@@ -9,7 +9,7 @@ var _lottieReact = _interopRequireDefault(require("lottie-react"));
 var _default_loader = _interopRequireDefault(require("./default_loader.json"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
-var LoadingSpinner = function LoadingSpinner(_ref) {
+var TlLoadingSpinner = function TlLoadingSpinner(_ref) {
   var spinning = _ref.spinning,
     _ref$size = _ref.size,
     size = _ref$size === void 0 ? 'default' : _ref$size;
@@ -31,4 +31,4 @@ var LoadingSpinner = function LoadingSpinner(_ref) {
     })
   });
 };
-var _default = exports["default"] = LoadingSpinner;
+var _default = exports["default"] = TlLoadingSpinner;
