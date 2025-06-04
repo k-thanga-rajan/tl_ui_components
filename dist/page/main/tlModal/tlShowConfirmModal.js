@@ -8,6 +8,7 @@ exports["default"] = void 0;
 var _tlModal = _interopRequireDefault(require("./tlModal"));
 var _images = require("../../assets/images");
 require("./index.scss");
+var _react = _interopRequireDefault(require("react"));
 var _jsxRuntime = require("react/jsx-runtime");
 var _excluded = ["openModal", "handleModalSubmit", "handleClose", "title", "subTitle", "modalType"];
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }

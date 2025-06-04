@@ -1,6 +1,7 @@
 import TlModal from "./tlModal";
 import { ModalComplete, infoIcon, xMarkModal } from "../../assets/images";
 import "./index.scss";
+import React from "react";
 
 const TlShowConfirmModal = ({ openModal, handleModalSubmit, handleClose, title, subTitle, modalType, ...resetProps }) => {
     const modalIcon = modalType === "info" ? infoIcon : modalType === "complete" ? ModalComplete : modalType === "warning" ? xMarkModal : "";
