@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import classNames from 'classnames';
 import './style.scss';
-import { DownArrow } from './assets/images';
 
 const TlAccordian = ({ children, changeAccordianResponse, ...props }) => {
     const contentEl = useRef();
@@ -30,7 +29,7 @@ const TlAccordian = ({ children, changeAccordianResponse, ...props }) => {
                         <h5 className="accordion__title">{label}</h5>
                         {subLabel && active === id ? <p className="accordion__sub-title">{subLabel}</p> : active === id && <p></p>}
                     </div>
-                    <img src={DownArrow} alt="Arrow" />
+                    <img src={DownArro} alt="Arrow" />
                 </div>
             </div>
             <div ref={contentEl} className={`accordion__collapse ${active === id ? 'show' : ''}`} style={{
