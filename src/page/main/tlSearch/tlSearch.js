@@ -2,7 +2,7 @@ import React from 'react';
 import Search from 'antd/es/input/Search';
 import "./index.scss";
 
-const UiSearch = React?.forwardRef(({ className, style, placeholder, handleSearch, searchValue, ...restProps }, ref) => (
+const TlSearch = React?.forwardRef(({ className, style, placeholder, handleSearch, searchValue, ...restProps }, ref) => (
     <Search
         ref={ref}
         className={`custom-ant-search ${className}`}
