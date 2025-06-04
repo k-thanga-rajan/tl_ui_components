@@ -48,4 +48,4 @@ const TlAccordian = ({ children, changeAccordianResponse, ...props }) => {
     );
 };
 
-export default UiAccordian;
+export default TlAccordian;

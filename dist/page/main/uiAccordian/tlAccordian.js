@@ -91,4 +91,4 @@ var TlAccordian = function TlAccordian(_ref) {
     })]
   });
 };
-var _default = exports["default"] = UiAccordian;
+var _default = exports["default"] = TlAccordian;
